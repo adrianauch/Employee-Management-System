@@ -28,3 +28,16 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+too include in db:
+the database name: employee_db
+
+then tables:
+departmnet table
+id and name
+roles table
+id, salary, title, dep id
+employees table
+id, first name, last name, role id, manager id
+
+Seeds is just going to be made up data to INSERT.
