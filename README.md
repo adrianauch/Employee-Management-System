@@ -2,7 +2,8 @@
 
 Application is deployed links:
 
-Github: https://adrianauch.github.io/
+Github: https://adrianauch.github.io/Employee-Management-System/
+Full Video of Application: https://drive.google.com/file/d/1vFfuTCqT-MIFVIjs1uPq4W-IpZ-iXSEj/view
 
 ## Description:
 
