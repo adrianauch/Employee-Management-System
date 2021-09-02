@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
 -- Switch to new db
 USE employee_db -- Create deparement table:
-CREATE TEABLE departments (
+CREATE TABLE departments (
   id INT AUTOINCREMENT NOT NULL,
   departments_name VARCHAR (30) NOT NULL,
   PRIMARY KEY (id)

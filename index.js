@@ -142,7 +142,7 @@ async function AddDepartment() {
   connection.query(
     "INSERT INTO departments SET ?",
     {
-      name: departmentDetails.departments_name,
+      departments_name: departmentDetails.departments_name,
     },
     function (err) {
       if (err) {
