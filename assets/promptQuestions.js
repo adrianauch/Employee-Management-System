@@ -1,5 +1,6 @@
 module.exports = {
   mainMenu: {
+    // main menu option part of the start function
     type: "list",
     message:
       "How can we help you? Please select an option from the menu below:",
@@ -15,6 +16,7 @@ module.exports = {
     ],
     name: "mainMenu",
   },
+  // prompts for adding new employees
   addNewEmployee: (roles, employees) => [
     {
       type: "input",
@@ -39,12 +41,16 @@ module.exports = {
       choices: employees,
     },
   ],
-  DepartmentQuestions: {
-    type: "input",
-    message: "What is the name of the department?",
-    name: "department_name",
-  },
-  addRole: [
+  // prompt for updating new department
+  addNewDepartment: () => [
+    {
+      type: "input",
+      message: "What is the name of the department?",
+      name: "departments_name",
+    },
+  ],
+  // prompts for updating role
+  addNewRole: () => [
     {
       type: "input",
       message: "What is the title of your new role?",
@@ -61,9 +67,4 @@ module.exports = {
       name: "departmentIDrole",
     },
   ],
-  quit: {
-    type: "list",
-    Message: "Are you sure you would like to exit the application?",
-    choices: [" Yes", "No"],
-  },
 };

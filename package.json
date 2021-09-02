@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-   
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/adrianauch/Employee-Management-System#readme",
   "dependencies": {
+    "ascii-art-font": "^1.0.2",
+    "asciiart-logo": "^0.2.6",
     "console.table": "^0.10.0",
     "dotenv": "^10.0.0",
     "inquirer": "^8.1.2",
