@@ -17,7 +17,17 @@ In order to use the application please download the node modules with npm i.
 ![Image of the Employee Manager in Commandline prompts 1](assets/images/exampe1.png)
 ![Image of the Employee Manager in Commandline prompts 2](assets/images/example2.png)
 
-Link to a deployed Video: https://drive.google.com/file/d/1vFfuTCqT-MIFVIjs1uPq4W-IpZ-iXSEj/view
+
+https://user-images.githubusercontent.com/87041736/131923279-3580ef94-0c93-401d-a645-981b5cf5a613.mov
+
+
+
+https://user-images.githubusercontent.com/87041736/131923287-b6e02e83-94d5-4352-ad08-ca180d6f24e3.mov
+
+
+
+
+Link to a full deployed Video: https://drive.google.com/file/d/1vFfuTCqT-MIFVIjs1uPq4W-IpZ-iXSEj/view
 
 1. Please install node modules with npm i
 2. Type node index.js to start the application
